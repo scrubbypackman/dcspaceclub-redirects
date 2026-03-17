@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+
+  <!-- GTM EVENT -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'qr_scan',
+      qr_campaign: '20off_sticker',
+      qr_source: 'physical',
+      qr_medium: 'qr'
+    });
+  </script>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://YOUR-BLAZE-URL-HERE";
+    }, 300);
+  </script>
+</head>
+<body></body>
+</html>
