@@ -3,7 +3,16 @@
 <head>
   <title>Redirecting...</title>
 
-  <!-- GTM EVENT -->
+  <!-- ✅ GOOGLE TAG MANAGER (REQUIRED) -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id=GTM-MJ3NK86X'+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MJ3NK86X');
+  </script>
+
+  <!-- ✅ QR EVENT -->
   <script>
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
@@ -14,11 +23,13 @@
     });
   </script>
 
+  <!-- ✅ REDIRECT -->
   <script>
     setTimeout(function() {
       window.location.href = "https://dcspaceclub.com/menu/deals/delivery_fee/your-first-member-order-enjoy-20-off-your-entire-cart-107857/";
-    }, 300);
+    }, 400); // slightly increased for reliability
   </script>
 </head>
-<body></body>
+<body>
+</body>
 </html>
